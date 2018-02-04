@@ -6,10 +6,21 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 a {
   color: white;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
 }
 
 /*Header Rules*/
@@ -20,6 +31,10 @@ header {
   position: fixed;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 1;
+
+
 }
 .logo{
   display: flex;
@@ -33,4 +48,53 @@ header {
 header nav {
   padding-right: 10px;
   border: thin solid white;
+}
+
+/*Main content rules*/
+
+.maincontainer {
+  display: flex;
+  position: relative;
+  top: 69px;
+  align-items: center;
+  flex-direction: column;
+  border: thin solid white;
+
+}
+
+/*Mission rules*/
+
+.missioncontainer{
+  display: flex;
+  background-image: URL("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  border: thin solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+.missiontext {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%
+}
+
+/*Featured Tea rules*/
+.teacontainer {
+  padding-top: 70px;
+  width: 1000px;
+  border: thin solid white;
+}
+
+.flextea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    border: thin solid white;
+}
+
+.genflex {
+  margin: 16px;
 }
