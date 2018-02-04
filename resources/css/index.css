@@ -66,7 +66,7 @@ header nav {
 
 .missioncontainer{
   display: flex;
-  background-image: URL("../images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
   border: thin solid white;
@@ -97,4 +97,54 @@ header nav {
 
 .genflex {
   margin: 16px;
+}
+
+.teacontainer h4 {
+  padding-top: 10px;
+}
+
+/*Locations rules*/
+
+.locationscontainer h2 {
+      border: thin solid white;
+
+}
+.locationscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  border: thin solid white;
+}
+.locationsflex {
+  display: flex;
+  border: thin solid red;
+}
+
+.locationbox {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 20px;
+  background-color: black;
+  border: thin solid blue;
+}
+
+/*Footer rules*/
+footer {
+  border: thin solid white;
+    height: 200px;
+
+
+}
+
+.copyright {
+  width: 100%;
+  margin-left: 20px;
+  text-align: left;
+  border: thin solid white;
 }
