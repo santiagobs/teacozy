@@ -8,16 +8,13 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-
 a {
   color: white;
 }
-
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
 }
-
 .image {
   height: 200px;
   width: 300px;
@@ -33,21 +30,17 @@ header {
   border-bottom: 1px solid seashell;
   background-color: black;
   z-index: 1;
-
-
 }
 .logo{
   display: flex;
   flex: 1 0 auto;
   align-items: center;
-  border: thin solid white;
 }
 .logo img {
   height: 50px;
 }
-header nav {
-  padding-right: 10px;
-  border: thin solid white;
+nav span {
+  padding: 10px 10px;
 }
 
 /*Main content rules*/
@@ -58,8 +51,6 @@ header nav {
   top: 69px;
   align-items: center;
   flex-direction: column;
-  border: thin solid white;
-
 }
 
 /*Mission rules*/
@@ -69,11 +60,9 @@ header nav {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  border: thin solid white;
   justify-content: center;
   align-items: center;
 }
-
 .missiontext {
   display: flex;
   flex-direction: column;
@@ -85,30 +74,20 @@ header nav {
 .teacontainer {
   padding-top: 70px;
   width: 1000px;
-  border: thin solid white;
 }
-
 .flextea {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-    border: thin solid white;
 }
-
-.genflex {
+.flexteabox {
   margin: 16px;
 }
-
 .teacontainer h4 {
   padding-top: 10px;
 }
 
 /*Locations rules*/
-
-.locationscontainer h2 {
-      border: thin solid white;
-
-}
 .locationscontainer {
   display: flex;
   flex-direction: column;
@@ -118,33 +97,24 @@ header nav {
   height: 500px;
   width: 1200px;
   background-image: url("../images/img-locations-background.jpg");
-  border: thin solid white;
 }
 .locationsflex {
   display: flex;
-  border: thin solid red;
 }
-
 .locationbox {
   display: flex;
   flex-direction: column;
   width: 300px;
   margin: 0 20px;
   background-color: black;
-  border: thin solid blue;
 }
 
 /*Footer rules*/
 footer {
-  border: thin solid white;
     height: 200px;
-
-
 }
-
 .copyright {
   width: 100%;
-  margin-left: 20px;
+  padding-left: 20px;
   text-align: left;
-  border: thin solid white;
 }
